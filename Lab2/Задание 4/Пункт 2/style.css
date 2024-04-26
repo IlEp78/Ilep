@@ -1,0 +1,11 @@
+.img1 {
+    background: url("img/mosaic.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.img2 {
+    background: url("img/mosaic.jpg");
+    background-size: contain;
+    background-repeat: repeat;
+}
