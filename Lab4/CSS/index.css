@@ -1,0 +1,41 @@
+body {
+    font-family: sans-serif;
+}
+
+#towers {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.tower {
+    position: relative;
+    width: 80px;
+    height: 300px;
+    border: 1px solid black;
+    margin: 0 10px;
+}
+
+.disk {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 0;
+    border-radius: 50%;
+    background-color: #ccc;
+    transition: all 0.3s ease;
+}
+
+.disk.active {
+    background-color: #007bff;
+}
+
+#controls {
+    text-align: center;
+}
+
+#diskCount, #startBtn, #hintBtn, #resetBtn {
+    margin: 5px;
+}
